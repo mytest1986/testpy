@@ -1,0 +1,5 @@
+import socket
+import time
+hostname = socket.getfqdn()
+print("IP Address:",socket.gethostbyname_ex(hostname)[2][1])
+time.sleep(200)
